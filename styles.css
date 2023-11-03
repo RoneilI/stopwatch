@@ -1,0 +1,54 @@
+body {
+    background-image: url(animegif.gif);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    margin: 0; /* Resetting default margin */
+    background-size: cover;
+    display: flex; /* Setting body as a flex container */
+    align-items: center; /* Centering vertically */
+    justify-content: center; /* Centering horizontally */
+}
+
+.wrapper {
+    width: 800px;
+    color: #fff;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+#seconds, #tens {
+    font-size: 2em;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+}
+
+button:hover {
+    background: #fff;
+    border: solid 1px #fff;
+    color: #000;
+}
+
+.container {
+    border: 5px solid wheat;
+    background: radial-gradient(#e66465, #9198e5);
+    padding: 20px; /* Added padding for visual spacing */
+    width: 80%; /* You can adjust this as per your needs */
+    max-width: 800px; /* Setting a maximum width for responsiveness */
+}
